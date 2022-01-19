@@ -27,7 +27,7 @@ if diff_z>diff_x:
     print("Rough stronghold position(X,Z) = (",int(pos_x3),",",int(pos_z3),")\n Nether position of stronghold = (",int(pos_x3/8),",",int(pos_z3/8),")")
   else:
     print("ERROR! CORDINATES SEEMS TO BE SAME, RUN THE CODE AGAIN WITH CORRECT VALUES")
-else:
+if diff_x==diff_z:
   if z1>z2:
     print("Rough stronghold position(X,Z) = (",int(neg_x3),",",int(neg_z3),")\n Nether position of stronghold = (",int(neg_x3/8),",",int(neg_z3/8),")")
   if z2>z1:
