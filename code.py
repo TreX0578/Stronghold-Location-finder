@@ -34,16 +34,3 @@ else:
     print("Rough stronghold position(X,Z) = (",int(pos_x3),",",int(pos_z3),")\n Nether position of stronghold = (",int(pos_x3/8),",",int(pos_z3/8),")")
   else:
     print("ERROR! CORDINATES SEEMS TO BE SAME, RUN THE CODE AGAIN WITH CORRECT VALUES")
-  
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
