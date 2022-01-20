@@ -12,9 +12,7 @@ pos_z3=((d*m)/r)+z1
 neg_x3=-1*(d/r)+x1
 neg_z3=-1*((d*m)/r)+z1
 diff_x=x1-x2
-diff_x=abs(diff_x):
 diff_z=z1-z2
-diff_z=abs(diff_z):
 if diff_x>diff_z:
   if x1>x2:
     print("Rough stronghold position(X,Z): (",int(neg_x3),",",int(neg_z3),")\n Nether position of stronghold: (",int(neg_x3/8),",",int(neg_z3/8),")")
