@@ -2,7 +2,7 @@ import sys
 p=float(input("Enter the pixel change: "))
 d=(3000/p)
 print()
-print("Rough distance: ",int(d),"blocks \n",round(d/8)," blocks in the nether")
+print("Rough distance: ",int(d),"blocks \n",round(d/8)," blocks in the nether \n")
 x1=float(input("Enter your X of your initial standing block: "))
 z1=float(input("Enter your Z of your initial standing block: "))
 x2=float(input("Enter your X of your final standing block: "))
